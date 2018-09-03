@@ -33,7 +33,7 @@ header{
 }
 
 .logo{
-    background: url("/Users/dmcwhite/Desktop/resume_project/assets/images/rye-jessen-790652-unsplash.jpg");
+    background: url("/Users/dmcwhite/resume_project/assets/images/rye-jessen-790652-unsplash.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -97,4 +97,11 @@ header{
   font-size: 14px;
   font-weight: 300;
   letter-spacing: 2px;
+}
+
+/*----------------------------------------------Hover.css*/
+
+.hvr-sweep-to-bottom::before {
+  background: rgba(0, 0, 0, 0.2);
+  height: 120px;
 }
