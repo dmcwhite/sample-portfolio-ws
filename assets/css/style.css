@@ -150,6 +150,10 @@ footer .cv-pdf i:hover{
   -o-transition: all 0.35s ease-in-out;
 }
 
+#footer-details{
+    margin: 20px;
+}
+
 .social-links {
   padding-bottom: 15px;
 }
