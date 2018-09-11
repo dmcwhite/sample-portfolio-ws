@@ -37,6 +37,11 @@ h1,h2,h3,h4 {
   font-weight: 300;
   color: #fafafa;
 }
+
+.inline-block{
+  display: inline-block;
+}
+
 /*----------------------------------------------Heading*/
 
 header{
@@ -128,4 +133,11 @@ footer{
   color: #fafafa;
   min-height: 120px;
   margin: 0;
+}
+
+footer .cv-pdf i{
+  color: #fafafa;
+  text-align: center;
+  font-size: 18px;
+  padding-left: 5px;
 }
