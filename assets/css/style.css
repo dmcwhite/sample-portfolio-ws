@@ -149,21 +149,21 @@ header{
 
 /*----------------------------------------------Footer*/
 
-footer{
+footer {
   background-color: #525252;
   color: #fafafa;
   min-height: 120px;
   margin: 0;
 }
 
-footer .cv-pdf i{
+footer .cv-pdf i {
   color: #fafafa;
   text-align: center;
   font-size: 18px;
   padding-left: 5px;
 }
 
-footer .cv-pdf i:hover{
+footer .cv-pdf i:hover {
   color: #e84610;
   transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
@@ -171,7 +171,7 @@ footer .cv-pdf i:hover{
   -o-transition: all 0.35s ease-in-out;
 }
 
-#footer-details{
+#footer-details {
     margin: 20px;
 }
 
@@ -195,6 +195,17 @@ footer .cv-pdf i:hover{
   -o-transition: all 0.35s ease-in-out;
 }
 
-.social-links li a i:hover{
+.social-links li a i:hover {
   background: #e84610;
+}
+
+/*----------------------------------------------Three Reasons*/
+
+.three-reasons-icon {
+  font-size: 26px;
+  color: #e67e22;
+}
+
+.three-reasons-heading {
+  margin-bottom: 15px;
 }
