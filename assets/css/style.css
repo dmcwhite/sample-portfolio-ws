@@ -1,3 +1,11 @@
+/*----------------------------------------------Area Level*/
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
 /*----------------------------------------------Colors*/
 
 .bg-color-name-title{
@@ -70,10 +78,11 @@ header{
 }
 
 .logo{
-    background: url("self34.jpg");
+    background: url('assets/images/self34.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: DodgerBlue;
     min-height: 360px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
@@ -134,13 +143,6 @@ header{
   font-size: 14px;
   font-weight: 300;
   letter-spacing: 2px;
-}
-
-/*----------------------------------------------Hover.css*/
-
-.hvr-sweep-to-bottom::before {
-  background: rgba(0, 0, 0, 0.2);
-  height: 120px;
 }
 
 /*----------------------------------------------Footer*/
